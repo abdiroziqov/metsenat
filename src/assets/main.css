@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto;
+  width: 90%;
+}
+
+body {
+  font-family: rubik;
+  background: #E5E5E5;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: rubik;
+  src: url(./fonts/Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: sfpro;
+  src: url(./fonts/SF-Pro-Display-Regular.otf);
+}
+
+
