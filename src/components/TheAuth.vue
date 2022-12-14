@@ -1,10 +1,10 @@
 <template>
-  <div class="container ">
+  <div class="max-w-full h-screen justify-center flex flex-col items-center">
     <div class="mb-12">
       <img src="@/assets/icon/logo.png" alt="logo" />
     </div>
     <div
-      class="p-8 bg-white border border-solid border-[#EBEEFC] shadow-[0px_5px_40px_rgba(0,0,0,0.03)] rounded-xl"
+      class="w-[379px] h-[456px] p-8 bg-white border border-solid border-[#EBEEFC] shadow-[0px_5px_40px_rgba(0,0,0,0.03)] rounded-xl"
     >
       <div>
         <h3 class="font-['sfpro'] font-bold text-2xl text-[#28293D] mb-11">

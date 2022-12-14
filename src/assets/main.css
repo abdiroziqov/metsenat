@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6,12 +6,12 @@
 .container {
   max-width: 1200px !important;
   margin: 0 auto;
-  width: 90%;
+  width: 90% !important;
 }
 
 body {
   font-family: rubik;
-  background: #E5E5E5;
+  background: #e5e5e5;
   overflow-x: hidden;
 }
 @font-face {
@@ -26,5 +26,3 @@ body {
   font-family: sfpro;
   src: url(./fonts/SF-Pro-Display-Regular.otf);
 }
-
-

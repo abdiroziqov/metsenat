@@ -1,5 +1,5 @@
 <template>
-  <TheAuth />
+  <TheAuth class="container"></TheAuth>
 </template>
 
 <script setup>

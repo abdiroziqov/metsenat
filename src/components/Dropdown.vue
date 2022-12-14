@@ -45,17 +45,8 @@ export default {
 </script> -->
 
 <script setup>
-import { ref, withDefaults, defineProps } from "vue";
-// const default = ["Sellers", "Customer2", "Customer3"];
-
-const props = withDefaults(
-  defineProps({
-    items: Array,
-  }),
-  {
-    items: ["Sellers", "Customer2", "Customer3"],
-  }
-);
+import { ref } from "vue";
+const default = ["Sellers", "Customer2", "Customer3"];
 
 const selected = this.items[0];
 const is_open = ref(false);
